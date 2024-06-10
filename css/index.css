@@ -1,11 +1,13 @@
-body{
+body , html{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 header{
     background-color: #FFF2CC;
     padding: 0;
     margin: 0;
+    position: sticky;
 }
 nav{
     display: flex;
@@ -31,3 +33,17 @@ a:hover{
     border-bottom: 2px solid transparent;
     /*font-family: Arial,  sans-serif;*/
 }
+section .hero-image{
+    background-image: url(./assets/images/Walker.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*.hero-text{
+    text-align: center;
+   /* position: absolute;
+    top: 50%;
+    left: 50%;
+}*/
